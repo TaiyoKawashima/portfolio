@@ -3,7 +3,7 @@
 <head>
 <title>HTML, CSS and JavaScript demo</title>
       <style>
-      .lw { font-size: 60px; }
+    .lw { font-size: 60px; }
 .container  {
   /* 水平方向の中央揃え */
   text-align: center;
@@ -13,6 +13,12 @@
   text-align: right;
 }
 .soccer-image-container {
+    display:flex;
+      
+justify-content: space-around;
+}
+ 
+.drama-image-container{
     display:flex;
       
 justify-content: space-around;
@@ -45,7 +51,10 @@ Lupin/ルパン
 <br>頭脳戦、どんでん返し、⼈間ドラマが全て
 ⾯⽩く1⽇で⼀気⾒しました。<br>
 </p>
+<div class="drama-image-container">
 <img src="./lupin.jpeg" alt=""title="" width="100" height="100">
+
+</div>
 <!-- End your code here -->
 </body>
 </html>
